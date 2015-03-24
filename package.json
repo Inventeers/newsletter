@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Inventeers newsletter builder",
   "author": "Inventeers - Koos van Egmond",
+  "repository": "https://github.com/Inventeers/newsletter",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-email-builder": "^2.0.11",
