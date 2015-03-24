@@ -94,7 +94,7 @@
     td, p {
       font-family: Arial;
       font-size: 14px;
-      line-height: 1.4;
+      line-height: 1.5;
       color: #333333;
     }
 
@@ -102,12 +102,25 @@
       margin: 0 0 1em 0;
     }
 
+    h1, h2 {
+      color: #ffffff;
+    }
+
+    h2 {
+      margin: 0 0 1em 0;
+    }
+
     .footer p, .footer td {
       color: #dddddd;
+      margin: 1em 0 1em 0;
     }
 
     .content {
-      padding: 10px 16px 10px 16px;
+      padding: 10px 60px 10px 60px;
+    }
+
+    .contenttop {
+      padding: 30px 60px 20px 60px;
     }
 
     .small {
@@ -122,18 +135,35 @@
       padding: 6px 0px 0px 0px;
     }
 
+    .orangebar {
+      padding: 10px 60px 10px 60px;
+    }
+
     .logopadding {
-      padding: 12px 0px 0px 0px;
+      padding: 26px 0px 0px 0px;
+    }
+
+    .logopadding2 {
+      padding: 30px 0px 0px 0px;
     }
 
     .center {
       text-align: center;
     }
 
+    .right {
+      text-align: right;
+    }
+
     .centerimg {
-      float: none;
-      clear: none;
-      display: inline;
+      xfloat: none;
+      xclear: none;
+      xdisplay: inline;
+    }
+
+    .nomargin {
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
     }
     </style>
   </head>
@@ -155,45 +185,73 @@
                     <tr>
                       <td width="600" align="center" class="toppadding">
                         <center>
-                          <p class="small">Klik <a href="#" title="Web versie"><span>hier</span></a> voor de webversie van dit e-mailbericht</p>
+                          <p class="small">Wordt dit bericht niet juist weergeven? Klik dan <a href="#" title="Web versie"><span>hier</span></a> om het online te bekijken.</p>
                         </center>
                       </td>
                     </tr>
 
                     <!-- Header -->
                     <tr>
-                      <td class="content center" width="568" bgcolor="#ffffff" align="center">
-                        <a href="https://www.inventeers.nl/" title="Inventeers">
-                          <img src="img/nl_logo.jpg" alt="Inventeers" width="450" height="108" align="center" class="centerimg" />
-                        </a>
+                      <td class="content center" width="480" bgcolor="#ffffff" align="center">
+                        <table cellspacing="2" cellpadding="2" border="0">
+                          <tr>
+                            <td width="416">
+                              <a href="https://www.inventeers.nl/" title="Inventeers">
+                                <img src="img/nl_inventeers_logo.png" alt="Inventeers" width="247" height="64" align="center" class="logopadding" />
+                              </a>
+                            <td width="64" >
+                              <img src="img/nl_tenyears.jpg" alt="10 Jaar" width="64" height="64" class="logopadding2" />
+                            </td>
+                          </tr>
+                        </table>
                       </td>
                     </tr>
 
                     <!-- Content body -->
                     <tr>
-                      <td class="content" width="568" bgcolor="#ffffff">
-                        <p>Bacon ipsum dolor amet salami t-bone filet mignon brisket shoulder flank meatball venison ham andouille spare ribs. Bacon shoulder prosciutto ribeye. Pork loin ribeye shankle beef. Cupim hamburger tenderloin prosciutto capicola t-bone meatball turducken ham hock.</p>
-                        <p>Porchetta boudin tenderloin prosciutto pig cow ham pork jowl cupim. Andouille alcatra short loin venison pork belly kevin swine pork loin beef turkey landjaeger. Pork belly biltong bresaola, capicola kielbasa jowl ham hock flank hamburger landjaeger beef turkey kevin ball tip meatloaf. Leberkas picanha beef ribs tongue drumstick tenderloin, bresaola filet mignon porchetta prosciutto t-bone rump brisket short loin frankfurter. Andouille filet mignon ham hock salami, porchetta chicken ham. Shoulder strip steak porchetta ham hock.</p>
-                        <p>Short ribs kielbasa shank, sirloin flank venison andouille frankfurter. T-bone cow salami pancetta. Filet mignon corned beef leberkas pork chop turkey beef ribs shoulder short ribs doner. Pastrami capicola tail, porchetta pork loin pork short loin pig shankle ham beef bacon andouille turkey frankfurter. Ham hock kevin doner jerky spare ribs pig chicken. Alcatra ground round picanha pastrami, short loin meatball shoulder boudin sausage jowl brisket.</p>
+                      <td class="content" width="480" bgcolor="#ffffff">
+                        <p>Beste relatie,</p>
+                        <p>Inventeers gaat bijna verhuizen, 27 maart (aanstaande vrijdag) is het zo ver! Althans, niet z&oacute; ver, wij blijven op hetzelfde industrieterrein. Van De Heyderweg 21 gaan we naar een groter bedrijfspand op de Le Pooleweg 7, zie kaartje.</p>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="content orangebar" width="480" bgcolor="#ff5a00">
+                        <h1 class="center">VERHUISBERICHT</h1>
+                        <h2 class="center">Per 30 maart 2015 is ons nieuwe adres:</h2>
+                        <p><img src="img/nl_map.jpg" width="480" height="280" alt="Kaart" /></p>
+                        <p class="nomargin">&nbsp;</p>
+                        <h2 class="center">Le Pooleweg 7<Br />2314 XT, Leiden</h2>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="contenttop" width="480" bgcolor="#ffffff">
+                        <p>Wij verwachten vanaf 1 april weer helemaal operationeel te zijn vanuit ons nieuwe kantoor. Mocht u zin hebben in een rondleiding en een verse kop koffie, dan bent u van harte welkom op ons nieuwe post- en bezoekadres.</p>
+                        <p>Zou u zo vriendelijk willen zijn de adreswijziging door te voeren in uw administratie? Alvast bedankt.</p>
+                        <p>Met innovatieve groet,<br/><br /><br />
+
+                        Inventeers</p>
                       </td>
                     </tr>
 
                     <!-- Footer -->
                     <tr>
-                      <td class="footer content" width="568" bgcolor="#222222">
-                        <table cellspacing="2" cellpadding="2" border="0">
+                      <td class="footer content" width="480" bgcolor="#333333">
+                        <table cellspacing="0" cellpadding="0" border="0">
                           <tr>
-                            <td width="468">
-                              <p>Ons nieuwe adres:<br/><br/>
+                            <td width="240">
+                              <p>Inventeers<br/>
                                 Le Pooleweg 7,<br />
-                                2314 XZ, Leiden</p>
-                            </td>
-                            <td width="100" >
-                              <img src="img/nl_tenyears_dark.jpg" alt="10 Jaar" width="100" height="100" />
-                            </td>
-                          </tr>
-                        </table>
-
+                                2314 XT, Leiden<br /></p>
+                              </td>
+                              <td width="240" align="right" class="right">
+                                <p><a href="https://www.inventeers.nl/" title="Inventeers"><span>www.inventeers.nl</span></a><br />
+                                  <a href="mailto:info@inventeers.nl" title="Neem contact op met Inventeers"><span>info@inventeers.nl</span></a><br />
+                                  +31 - (0)71 - 523 12 36</p>
+                              </td>
+                            </tr>
+                          </table>
                       </td>
                     </tr>
 
@@ -201,7 +259,7 @@
                     <tr>
                       <td width="600" height="30" valign="middle" align="center" class="toppadding">
                         <center>
-                          <p class="small"><a href="#" title="Herp derp"><span>Herp derp</span></a> | <a href="#" title="Uitschrijven"><span>Uitschrijven</span></a></p>
+                          <p class="small">Wilt u zich afmelden voor onze nieuwsbrieven? Klik dan <a href="#" title="Uitschrijven"><span>hier</span></a> om naar het uitschrijfformulier te gaan.</p>
                         </center>
                       </td>
                     </tr>
