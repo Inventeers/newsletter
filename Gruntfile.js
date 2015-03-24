@@ -9,6 +9,9 @@ module.exports = function(grunt) {
       inline: {
         files: {
           'output.html': 'source.html'
+        },
+        options: {
+          encodeSpecialChars: true
         }
       }
     }
