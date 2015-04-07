@@ -4,291 +4,158 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width"/>
 
+    <style type="text/css" data-ignore="ignore">
+      #outlook a { 
+        padding:0; 
+      } 
+
+      body{ 
+        width:100% !important; 
+        min-width: 100%;
+        -webkit-text-size-adjust:100%; 
+        -ms-text-size-adjust:100%; 
+        margin:0; 
+        padding:0;
+      }
+
+      .ExternalClass { 
+        width:100%;
+      } 
+
+      .ExternalClass, 
+      .ExternalClass p, 
+      .ExternalClass span, 
+      .ExternalClass font, 
+      .ExternalClass td, 
+      .ExternalClass div { 
+        line-height: 100%; 
+      } 
+
+      #backgroundTable { 
+        margin:0; 
+        padding:0; 
+        width:100% !important; 
+        line-height: 100% !important; 
+      }
+
+      img { 
+        outline:none; 
+        text-decoration:none; 
+        -ms-interpolation-mode: bicubic;
+        width: auto;
+        max-width: 100%; 
+        float: left; 
+        clear: both; 
+        display: block;
+      }
+
+      center {
+        width: 100%;
+        min-width: 580px;
+      }
+
+      a img { 
+        border: none;
+      }
+
+      p {
+        margin: 0 0 0 10px;
+      }
+
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+
+      td { 
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
+        border-collapse: collapse !important; 
+      }
+
+      table, tr, td {
+        padding: 0;
+        vertical-align: top;
+        text-align: left;
+      }
+
+      hr {
+        color: #d9d9d9; 
+        background-color: #d9d9d9; 
+        height: 1px; 
+        border: none;
+      }
+
+      /* Responsive Grid */
+
+      table.body {
+        height: 100%;
+        width: 100%;
+      }
+
+      table.container {
+        width: 580px;
+        margin: 0 auto;
+        text-align: inherit;
+      }
+
+      table.row { 
+        padding: 0px; 
+        width: 100%;
+        position: relative;
+      }
+
+      table.container table.row {
+        display: block;
+      }
+
+      td.wrapper {
+        padding: 10px 20px 0px 0px;
+        position: relative;
+      }
+
+      table.columns,
+      table.column {
+        margin: 0 auto;
+      }
+
+      table.columns td,
+      table.column td {
+        padding: 0px 0px 10px; 
+      }
+
+      table.columns td.sub-columns,
+      table.column td.sub-columns,
+      table.columns td.sub-column,
+      table.column td.sub-column {
+        padding-right: 10px;
+      }
+
+      td.sub-column, td.sub-columns {
+        min-width: 0px;
+      }
+
+      table.row td.last,
+      table.container td.last {
+        padding-right: 0px;
+      }
+    </style>
     <style type="text/css">
-    /* Cross-client css reset */
-    #outlook a {
-      padding:0;
-    }
 
-    body{
-      width:100% !important;
-      min-width: 100%;
-      -webkit-text-size-adjust:100%;
-      -ms-text-size-adjust:100%;
-      margin:0;
-      padding:0;
-      background-color: #eeeeee;
-    }
+      /* Your custom styles go here */
 
-    .ExternalClass {
-      width:100%;
-    }
-
-    .ExternalClass,
-    .ExternalClass p,
-    .ExternalClass span,
-    .ExternalClass font,
-    .ExternalClass td,
-    .ExternalClass div {
-      line-height: 100%;
-    }
-
-    #backgroundTable {
-      margin:0;
-      padding:0;
-      width:100% !important;
-      line-height: 100% !important;
-    }
-
-    img {
-      outline:none;
-      text-decoration:none;
-      -ms-interpolation-mode: bicubic;
-      width: auto;
-      max-width: 100%;
-      float: left;
-      clear: both;
-      display: block;
-    }
-
-    center {
-      width: 100%;
-      min-width: 580px;
-    }
-
-    a img {
-      border: none;
-    }
-
-    p {
-      margin: 0 0 0 10px;
-    }
-
-    table {
-      border-spacing: 0;
-      border-collapse: collapse;
-    }
-
-    td {
-      word-break: break-word;
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      hyphens: auto;
-      border-collapse: collapse !important;
-    }
-
-    table, tr, td {
-      padding: 0;
-      vertical-align: top;
-      text-align: left;
-    }
-
-    hr {
-      color: #d9d9d9;
-      background-color: #d9d9d9;
-      height: 1px;
-      border: none;
-    }
-
-    /* Start custom css */
-    td, p {
-      font-family: Arial;
-      font-size: 14px;
-      line-height: 1.4;
-      color: #333333;
-    }
-
-    p {
-      margin: 0 0 1em 0;
-    }
-
-    h1, h2 {
-      color: #ffffff;
-    }
-
-    h2 {
-      margin: 0 0 0em 0;
-    }
-
-    .footer p, .footer td {
-      color: #dddddd;
-      margin: 1em 0 1em 0;
-    }
-
-    .content {
-      padding: 0px 60px 0px 60px;
-    }
-
-    .contenttop {
-      padding: 30px 60px 20px 60px;
-    }
-
-    .small {
-      font-size: 12px;
-    }
-
-    a, a span {
-      color: #ff5a00;
-    }
-
-    .toppadding {
-      padding: 6px 0px 0px 0px;
-    }
-
-    .orangebar {
-      padding: 0px 60px 0px 60px;
-    }
-
-    .logopadding {
-      padding: 26px 0px 0px 0px;
-    }
-
-    .logopadding2 {
-      padding: 30px 0px 0px 0px;
-    }
-
-    .center {
-      text-align: center;
-    }
-
-    .right {
-      text-align: right;
-    }
-
-    .centerimg {
-      xfloat: none;
-      xclear: none;
-      xdisplay: inline;
-    }
-
-    .nomargin {
-      margin: 0 0 0 0;
-      padding: 0 0 0 0;
-    }
     </style>
   </head>
-  <body bcolor="#eeeeee">
-    <!-- Full Background -->
-    <table class="body" width="100%" cellspacing="0" cellpadding="0" border="0">
+  <body>
+    <table class="body">
       <tr>
-        <td align="center" valign="top" bgcolor="#eeeeee">
+        <td class="center" align="center" valign="top">
           <center>
 
-            <!-- Main container -->
-            <table cellspacing="0" cellpadding="0" border="0">
+          <!-- Email Content -->
 
-              <!-- Main body -->
-              <tr>
-                <td >
-                  <table cellspacing="0" cellpadding="0" border="0">
-                    <!-- Top messages -->
-                    <tr>
-                      <td width="600" align="center" class="toppadding">
-                        <center>
-                          <p class="small">Wordt dit bericht niet juist weergeven? Klik dan <a href="#" title="Web versie"><span>hier</span></a> om het online te bekijken.</p>
-                        </center>
-                      </td>
-                    </tr>
-
-                    <!-- Header -->
-                    <tr>
-                      <td class="content center" width="480" bgcolor="#ffffff" align="center">
-                        <table cellspacing="2" cellpadding="2" border="0">
-                          <tr>
-                            <td colspan="2" height="30">
-                              &nbsp;
-                            </td>
-                          </tr>
-                          <tr>
-                            <td width="416">
-                              <a href="https://www.inventeers.nl/" title="Inventeers">
-                                <img src="https://www.inventeers.nl/custom/design/newsletter/move/nl_inventeers_logo.png" alt="Inventeers" width="247" height="64" align="center" class="logopadding" />
-                              </a>
-                            <td width="64" >
-                              <img src="https://www.inventeers.nl/custom/design/newsletter/move/nl_tenyears.jpg" alt="10 Jaar" width="64" height="64" class="logopadding2" />
-                            </td>
-                          </tr>
-                          <tr>
-                            <td colspan="2">
-                              &nbsp;
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-
-                    <!-- Content body -->
-                    <tr>
-                      <td class="content" width="480" bgcolor="#ffffff">
-                        <p>Beste relatie,</p>
-                        <p>Inventeers gaat bijna verhuizen, 27 maart (aanstaande vrijdag) is het zo ver! Althans, niet z&oacute; ver, wij blijven op hetzelfde industrieterrein. Van De Heyderweg 21 gaan we naar een groter bedrijfspand op de Le Pooleweg 7, zie kaartje.</p>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td class="content" width="480" bgcolor="#ffffff">&nbsp;</td>
-                    </tr>
-
-                    <tr>
-                      <td class="content orangebar" width="480" bgcolor="#ff5a00">&nbsp;</td>
-                    </tr>
-
-                    <tr>
-                      <td class="content orangebar" width="480" bgcolor="#ff5a00">
-                        <h1 class="center">VERHUISBERICHT</h1>
-                        <h2 class="center">Per 30 maart 2015 is ons nieuwe adres:</h2><br />
-                        <p><img src="https://www.inventeers.nl/custom/design/newsletter/move/nl_map.jpg" width="480" height="280" alt="Kaart" /></p>
-                        <p class="nomargin">&nbsp;</p>
-                        <h2 class="center">Le Pooleweg 7<Br />2314 XT, Leiden</h2>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td class="content orangebar" width="480" bgcolor="#ff5a00">&nbsp;</td>
-                    </tr>
-
-                    <tr>
-                      <td class="contenttop" width="480" bgcolor="#ffffff">
-                        <p>Wij verwachten vanaf 1 april weer helemaal operationeel te zijn vanuit ons nieuwe kantoor. Mocht u zin hebben in een rondleiding en een verse kop koffie, dan bent u van harte welkom op ons nieuwe post- en bezoekadres.</p>
-                        <p>Zou u zo vriendelijk willen zijn de adreswijziging door te voeren in uw administratie? Alvast bedankt.</p>
-                        <p>Met innovatieve groet,<br/><br /><br />
-
-                        Inventeers</p>
-                      </td>
-                    </tr>
-
-                    <!-- Footer -->
-                    <tr>
-                      <td class="footer content" width="480" bgcolor="#333333">
-                        <table cellspacing="0" cellpadding="0" border="0">
-                          <tr>
-                            <td width="240">
-                              <p>Inventeers<br/>
-                                Le Pooleweg 7,<br />
-                                2314 XT, Leiden<br /></p>
-                              </td>
-                              <td width="240" align="right" class="right">
-                                <p><a href="https://www.inventeers.nl/" title="Inventeers"><span>www.inventeers.nl</span></a><br />
-                                  <a href="mailto:info@inventeers.nl" title="Neem contact op met Inventeers"><span>info@inventeers.nl</span></a><br />
-                                  +31 - (0)71 - 523 12 36</p>
-                              </td>
-                            </tr>
-                          </table>
-                      </td>
-                    </tr>
-
-                    <!-- Bottom messages -->
-                    <tr>
-                      <td width="600" height="30" valign="middle" align="center" class="toppadding">
-                        <center>
-                          <p class="small">Wilt u zich afmelden voor onze nieuwsbrieven? Klik dan <a href="#" title="Uitschrijven"><span>hier</span></a> om naar het uitschrijfformulier te gaan.</p>
-                        </center>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
           </center>
         </td>
       </tr>
