@@ -7,19 +7,23 @@ module.exports = (grunt) ->
 
   # Grunt configuration and set-up
   grunt.initConfig
-    emailBuilder: inline:
-      files: 'output.html': 'source.html'
-      options: encodeSpecialChars: true
-
-    emailTest:
-      files: 'output.html': 'output.html'
-      options:
-        encodeSpecialChars: false
-        emailTest:
-          email: grunt.option('email') or 'vanegmond@inventeers.nl'
-          subject: grunt.option('subject') or 'Test'
+    emailBuilder:
+      inline:
+        files: 'output.html': 'source.html'
+        options: encodeSpecialChars: true
+      emailTest:
+        files: 'output.html': 'output.html'
+        options:
+          encodeSpecialChars: false
+          emailTest:
+            from: 'newsletter@inventeers.nl'
+            email: grunt.option('email') or 'vanegmond@inventeers.nl'
+            subject: grunt.option('subject') or 'Test'
+            transport:
+              type: 'SMTP'
+              host: 'smtp.ziggozakelijk.nl'
 
   # Set-up grunt tasks
-  grunt.registerTask 'send', ['build', 'emailTest']
-  grunt.registerTask 'build', ['emailBuilder']
+  grunt.registerTask 'send', ['emailBuilder:emailTest']
+  grunt.registerTask 'build', ['emailBuilder:inline']
   grunt.registerTask 'default', [ 'build' ]
