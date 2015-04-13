@@ -11,6 +11,10 @@ Then you can build with
 ```
 grunt
 ```
+or build and send to email address with
+```
+grunt send
+```
 ## Note on Windows
 Haven't gotten this to work on Windows. So building should be done server side on Linux.
 
